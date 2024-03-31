@@ -201,3 +201,23 @@ section {
     border: 3px solid var(--main-color);
     border-radius: 50%;
 }
+
+.home .profession-container .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 384px solid var(--main-color);
+    border-right: 384px solid var(--main-color);
+    border-left: 384px solid transparent;
+    border-bottom: 384px solid var(--main-color);
+}
+
+.home-img img {
+    position: absolute;
+    pointer-events: none;
+    right: 70px;
+    bottom: 0;
+    width: 450px;
+}
