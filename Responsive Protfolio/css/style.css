@@ -238,20 +238,13 @@ section {
     border-bottom: 384px solid var(--main-color);
 }
 
-.home-img {
-    width: 30%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-}
 
 .home-img img {
     position: absolute;
     pointer-events: none;
     right: 70px;
     bottom: 0;
-    width: 100%;
+    width: 450px;
 }
 
 span {
